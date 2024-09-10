@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage-sources"
+          fetch="https://github.com/Lineageos"
+          revision="lineage-21" />
+  <remote name="muppets"
+          fetch="https://github.com/TheMuppets"
+          revison="lineage-21" />
+  <remote name="simon"
+          fetch="https://github.com/Simon1511"
+          revision="lineage-21" />
+  
+  <!-- Device and common trees -->
+  <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="lineage-sources" />
+  <project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="lineage-sources" />
+
+  <!-- Kernel tree -->
+  <project path="kernel/samsung/sm7125" name="android_kernel_samsung_sm7125" remote="simon" />
+
+  <!-- Vendor blobs -->
+  <project path="vendor/samsung/a52q" name="proprietary_vendor_samsung_a52q" remote="muppets" />
+  <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="muppets" />
+  
+  <!-- Samsung Hardware -->
+  <!--<project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-sources" /> -->
+
+</manifest>
