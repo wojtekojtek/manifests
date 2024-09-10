@@ -22,6 +22,6 @@
   <project path="vendor/samsung/sm7125-common" name="proprietary_vendor_samsung_sm7125-common" remote="muppets" />
   
   <!-- Samsung Hardware -->
-  <!--<project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-sources" /> -->
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-sources" />
 
 </manifest>
